@@ -1,0 +1,111 @@
+.bg-img {
+  /* The image used */
+  background-image: url("https://responsivetest-ansh.000webhostapp.com/wp-content/uploads/2020/04/54677948-6a49-4609-830a-1b57412020f2.jpg");
+
+  max-width: 101%;
+      min-height: 481px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: -17px;
+      position: relative;
+      margin-left: -8px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+
+
+
+.listyle{
+  list-style:none;
+
+}
+
+.center {
+  margin-left: 426px;
+  padding-top: 37px;
+
+}
+
+li {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.logo{
+    margin-top: -28px;
+    margin-left: 18px;
+      margin-right: 18px;}
+
+      .underline-on-hover:hover {
+  		text-decoration: underline;
+    color:red;
+	}
+
+  a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: ;
+font-size: 15px;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background:#61ce70;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.imgtext {
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    letter-spacing: -5px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 345px;
+    margin-top: 45px;
+}
+
+.sec2{
+  background-color: #f5f5f5;
+  padding: 30%;
+}
+.parallax {
+  background-image: url("https://responsivetest-ansh.000webhostapp.com/wp-content/uploads/2020/04/54677948-6a49-4609-830a-1b57412020f2.jpg");
+  min-height: 46px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
